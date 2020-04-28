@@ -1,0 +1,95 @@
+@font-face {
+  src: url("font/merriweather.woff");
+  font-family: "merriweather";
+}
+
+body {
+  background-color: #eaeaea;
+  font-family: "merriweather";
+}
+
+.carbon {
+  max-width: 80%;
+  /* background-color: lightgreen; */
+  margin: 55px;
+}
+
+.content {
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  display: flex;
+}
+
+.yellow,
+.green,
+.red {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.yellow {
+  background-color: #ffbd2e;
+}
+
+.green {
+  background-color: #27c93f;
+}
+
+.red {
+  background-color: #ff5f56;
+}
+
+.profile img {
+  width: 55%;
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 8px rgba(115, 125, 254, 0.8);
+  border-radius: 10px;
+}
+
+.line {
+  border: 1px solid #737dfe;
+}
+
+.btn {
+  background-color: #737dfe;
+}
+
+.btn:hover {
+  background-color: #8d95ff;
+}
+
+.social-media span a {
+  font-size: 24px;
+  color: #737dfe;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.contact span {
+  margin-left: 16px;
+  color: #737dfe;
+
+}
+
+@media (max-width: 768px) {
+  .profile img {
+    box-shadow: none;
+    margin-bottom: 16px;
+  }
+
+  .profile h3 {
+    font-size: 24px;
+  }
+
+  .contact span {
+    font-size: 12px;
+  }
+}
